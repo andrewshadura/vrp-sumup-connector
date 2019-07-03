@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VRP SumUp connector</string>
+    <string name="about">This app connects the VRP virtual till to the SumUp payment terminal. There are no configuration settings.
+    </string>
+    <string name="no_sumup">The SumUp application doesn’t appear to be installed</string>
+    <string name="cant_complete_payment">Payment cannot be completed</string>
+    <string name="install_sumup">Install SumUp</string>
+    <string name="go_back">Go back</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prepojenie VRP a SumUp</string>
+    <string name="about">Táto aplikácia je určená na prepojenie VRP a platobného terminálu SumUp. V dispozícii nie sú žiadne nastavenia.
+    </string>
+    <string name="go_back">Naspäť</string>
+    <string name="cant_complete_payment">Platba nebola dokončená</string>
+    <string name="install_sumup">Nainštalovať SumUp</string>
+    <string name="no_sumup">Aplikácia SumUp nebola najdená</string>
+</resources>
