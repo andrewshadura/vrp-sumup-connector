@@ -107,7 +107,6 @@ class MainActivity : AppCompatActivity() {
                                     appendQueryParameter("affiliate-key", BuildConfig.sumupApiKey)
                                     appendQueryParameter("app-id", BuildConfig.APPLICATION_ID)
                                     appendQueryParameter("total", (amount / BigDecimal(100)).toPlainString())
-                                    appendQueryParameter("skip-screen-success", "true")
                                     appendQueryParameter("currency", "EUR")
                                     appendQueryParameter("callback", "me.shadura.vrpconnector.sumup://result")
                                 }
