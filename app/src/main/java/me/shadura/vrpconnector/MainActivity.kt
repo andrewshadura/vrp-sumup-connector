@@ -14,6 +14,7 @@ import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import java.math.BigDecimal
+import java.math.RoundingMode
 
 fun Context.installApp(packageName: String) {
     try {
@@ -106,7 +107,7 @@ class MainActivity : AppCompatActivity() {
                                     path("1.0")
                                     appendQueryParameter("affiliate-key", BuildConfig.sumupApiKey)
                                     appendQueryParameter("app-id", BuildConfig.APPLICATION_ID)
-                                    appendQueryParameter("total", (amount / BigDecimal(100)).toPlainString())
+                                    appendQueryParameter("total", amount.divide(BigDecimal(100), 2, RoundingMode.HALF_EVEN).toPlainString())
                                     appendQueryParameter("currency", "EUR")
                                     appendQueryParameter("callback", "me.shadura.vrpconnector.sumup://result")
                                 }
